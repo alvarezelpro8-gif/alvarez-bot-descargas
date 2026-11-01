@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Descarga ALVAREZ-BOT para Windows, una herramienta para acompañar tus directos de TikTok LIVE leyendo mensajes en voz alta.">
+  <title>ALVAREZ-BOT | Descarga oficial</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1020; --panel:#121a30; --text:#f4f7ff; --muted:#b3bdd4; --accent:#8b5cf6; --accent2:#22d3ee; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter,Segoe UI,Arial,sans-serif; background:radial-gradient(ellipse at 15% 0%,#27205b 0,transparent 42%),radial-gradient(ellipse at 100% 20%,#103b50 0,transparent 35%),var(--bg); color:var(--text); line-height:1.6; }
+    .wrap { width:min(1080px,92%); margin:auto; }
+    header { display:flex; justify-content:space-between; align-items:center; padding:24px 0; gap:16px; }
+    .brand { font-weight:900; letter-spacing:.08em; }
+    .brand span { color:var(--accent2); }
+    .tag { color:var(--muted); font-size:.9rem; border:1px solid #34405b; border-radius:999px; padding:6px 12px; }
+    .hero { padding:68px 0 58px; display:grid; grid-template-columns:1.2fr .8fr; gap:38px; align-items:center; }
+    .eyebrow { color:var(--accent2); text-transform:uppercase; letter-spacing:.16em; font-size:.78rem; font-weight:800; }
+    h1 { font-size:clamp(2.5rem,6vw,4.7rem); line-height:1.04; margin:14px 0 20px; letter-spacing:-.045em; }
+    h1 em { color:#b9a5ff; font-style:normal; }
+    p { color:var(--muted); }
+    .lead { font-size:1.13rem; max-width:620px; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:28px; }
+    .btn { display:inline-flex; align-items:center; justify-content:center; padding:13px 20px; border-radius:12px; font-weight:800; text-decoration:none; transition:transform .15s ease; }
+    .btn:hover { transform:translateY(-2px); }
+    .primary { color:#080b16; background:linear-gradient(100deg,var(--accent2),#a78bfa); }
+    .secondary { border:1px solid #46516d; color:var(--text); }
+    .mock { min-height:290px; border:1px solid #35405e; border-radius:26px; padding:24px; background:linear-gradient(150deg,rgba(139,92,246,.20),rgba(34,211,238,.08)),#11182c; box-shadow:0 30px 80px #0005; }
+    .mocktop { display:flex; justify-content:space-between; color:var(--muted); font-size:.85rem; padding-bottom:18px; border-bottom:1px solid #303b57; }
+    .live { color:#ff8eae; font-weight:900; }
+    .chat { margin-top:18px; display:grid; gap:12px; }
+    .msg { background:#202a44; padding:12px 14px; border-radius:12px; color:#eef2ff; }
+    .msg b { color:#9eeafa; }
+    .sound { display:inline-block; letter-spacing:4px; color:var(--accent2); font-size:1.4rem; margin-top:14px; }
+    section { padding:28px 0; }
+    h2 { font-size:clamp(1.6rem,3vw,2.2rem); margin:0 0 10px; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:24px; }
+    .card { border:1px solid #2d3854; border-radius:18px; padding:22px; background:#11182bd9; }
+    .ico { font-size:1.7rem; }
+    .card h3 { margin:10px 0 4px; }
+    .card p { margin-bottom:0; font-size:.95rem; }
+    .steps { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; counter-reset:step; }
+    .step { padding:20px; border-left:3px solid var(--accent); background:#121a2b; border-radius:0 14px 14px 0; }
+    .note { padding:18px 20px; border:1px solid #4c4778; background:#211c3b99; border-radius:14px; color:#dcd6ff; }
+    footer { margin-top:50px; padding:28px 0 42px; border-top:1px solid #28334d; color:var(--muted); font-size:.9rem; }
+    a { color:#9eeafa; }
+    @media(max-width:760px) { .hero { grid-template-columns:1fr; padding-top:40px; } .grid,.steps { grid-template-columns:1fr; } header { align-items:flex-start; flex-direction:column; } }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="brand">ALVAREZ<span>-BOT</span></div>
+    <div class="tag">Herramienta para Windows</div>
+  </header>
+
+  <main>
+    <div class="wrap hero">
+      <div>
+        <div class="eyebrow">Dale voz a tu directo</div>
+        <h1>Tu chat en vivo.<br><em>En voz alta.</em></h1>
+        <p class="lead">ALVAREZ-BOT te ayuda a seguir los mensajes de tu TikTok LIVE mediante lectura en voz alta, para que puedas mantener la atención en tu transmisión.</p>
+        <div class="actions">
+          <!-- Coloca el instalador en la misma carpeta que este HTML y usa este nombre exacto. -->
+          <a class="btn primary" href="ALVAREZ-BOT-Setup.exe" download>⬇ Descargar ALVAREZ-BOT</a>
+          <a class="btn secondary" href="#instalacion">Cómo instalarlo</a>
+        </div>
+        <p style="font-size:.86rem;margin-top:14px">Descarga para Windows. El botón estará activo cuando publiques el instalador con el nombre indicado.</p>
+      </div>
+      <div class="mock" aria-label="Ejemplo ilustrativo del panel de chat">
+        <div class="mocktop"><span>ALVAREZ-BOT · Panel de chat</span><span class="live">● LIVE</span></div>
+        <div class="chat">
+          <div class="msg"><b>Usuario_01:</b> ¡Hola, saludos desde Cali!</div>
+          <div class="msg"><b>Gamer_Col:</b> Qué buena partida 🔥</div>
+          <div class="msg"><b>FanDelCanal:</b> Saludos, crack.</div>
+        </div>
+        <div class="sound">▂ ▅ ▇ ▄ ▆ ▃ ▇ ▅</div>
+        <div style="color:var(--muted);font-size:.85rem">Vista ilustrativa · no es una captura real de la aplicación</div>
+      </div>
+    </div>
+
+    <section class="wrap">
+      <h2>Hecho para acompañar tus directos</h2>
+      <p>Una interfaz sencilla para tener el chat más presente mientras juegas o transmites.</p>
+      <div class="grid">
+        <article class="card"><div class="ico">🔊</div><h3>Lectura en voz alta</h3><p>Escucha los comentarios compatibles con la configuración de lectura del bot.</p></article>
+        <article class="card"><div class="ico">💬</div><h3>Panel de mensajes</h3><p>Consulta los eventos y mensajes que recibe la aplicación durante el directo.</p></article>
+        <article class="card"><div class="ico">⚙️</div><h3>Configuración</h3><p>Ajusta las opciones disponibles de voz y personaliza el nombre de tu canal.</p></article>
+      </div>
+    </section>
+
+    <section class="wrap" id="instalacion">
+      <h2>Instalación en tres pasos</h2>
+      <div class="steps">
+        <div class="step"><b>1. Descarga</b><p>Descarga el instalador desde esta página.</p></div>
+        <div class="step"><b>2. Instala</b><p>Abre el archivo descargado y sigue las instrucciones de Windows.</p></div>
+        <div class="step"><b>3. Configura</b><p>Abre ALVAREZ-BOT y configura tu conexión y las opciones disponibles.</p></div>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="note"><b>Antes de instalar:</b> descarga el programa únicamente desde una fuente en la que confíes. Windows puede mostrar una advertencia con aplicaciones nuevas que todavía no tienen reputación o firma digital. No desactives el antivirus para instalarlo. No compartas archivos que contengan contraseñas, tokens o claves privadas.</div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <b>ALVAREZ-BOT</b>
+      <p>Proyecto independiente. No está afiliado, patrocinado ni respaldado por TikTok. TikTok es una marca de su titular correspondiente.</p>
+      <p>Soporte: <a href="mailto:soporte@tu-dominio.com">reemplaza este correo por tu contacto de soporte</a></p>
+      <p>© <span id="year">2026</span> ALVAREZ-BOT</p>
+    </div>
+  </footer>
+</body>
+</html>
